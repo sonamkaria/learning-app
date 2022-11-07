@@ -38,7 +38,7 @@ courseRouter.put("/:id", (req, res) => {
       req.params.id,
       req.body,
       { new: true },
-      (err, updatedCourse) => {
+      (err, course) => {
       // redirect user to showpage
       res.redirect(`/courses/${req.params.id}`);
     })
@@ -46,7 +46,8 @@ courseRouter.put("/:id", (req, res) => {
   
   // CREATE
   courseRouter.post("/", (req, res) => {
-    Course.create(req.body, (error, createdCourse) => {
+    console.log(req.body)
+    Course.create(req.body,(error, createdCourse) => {
       res.redirect("/courses")
     })
   })

@@ -1,7 +1,7 @@
 const courseData = [
     {
-        Image:"https://image.shutterstock.com/image-vector/programming-code-coding-hacker-background-600w-1714491562.jpg",
-        Name:"Python",
+        Image:"https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg",
+        Name:"UX/UI",
         Category: "Coding",
         Company: "Udemy",
         Link:"https://www.udemy.com/course/pythonforbeginners/",
@@ -9,7 +9,7 @@ const courseData = [
 
     },
     {
-        Image:"https://www.shutterstock.com/image-vector/programming-code-coding-hacker-background-icon-1714491562",
+        Image:"https://s27389.pcdn.co/wp-content/uploads/2021/07/data-science-predictions-for-near-future-1024x440.jpeg.optimal.jpeg",
         Name:"Data Science",
         Category: "Data",
         Company: "Coursera",
@@ -18,7 +18,7 @@ const courseData = [
 
     },
     {
-        Image:"https://www.shutterstock.com/image-vector/programming-code-coding-hacker-background-icon-1714491562",
+        Image:"https://media.istockphoto.com/id/1132660268/photo/stock-market-investment-graph-with-indicator-and-volume-data.jpg?s=612x612&w=0&k=20&c=87C26FkepmRwESeeWa4phUv7PApEk_NXO8j2m_44YwQ=",
         Name:"Marketing Analytics",
         Category: "Marketing",
         Company: "Coursera",
@@ -27,7 +27,7 @@ const courseData = [
 
     },
     {
-        Image:"https://www.shutterstock.com/image-vector/programming-code-coding-hacker-background-icon-1714491562",
+        Image:"https://miro.medium.com/max/702/1*Ra02AqsQlC0KV229EvM98g.png",
         Name:"Data Analytics",
         Category: "Data",
         Company: "Coursera",
@@ -36,8 +36,8 @@ const courseData = [
 
     },
     {
-        Image:"https://www.shutterstock.com/image-vector/programming-code-coding-hacker-background-icon-1714491562",
-        Name:"Javascript",
+        Image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGwMYfXwqnJjxmBkBXmO2le8N8smCqT-84vQ&usqp=CAU",
+        Name:"Software Engineering",
         Category: "Coding",
         Company: "Caltech",
         Link:"https://pg-p.ctme.caltech.edu/coding-bootcamp-online-certification-course?utm_source=google&utm_medium=cpc&utm_term=javascript%20course&utm_content=17298398593-136505729483-598863828183&utm_device=c&utm_campaign=Search-TechCluster-PG-SD-CFSDB-Caltech-US-Main-CaltechDomain-Catchment-18-24age-adgroup-SimilarWeb-Javascript-Phrase&gclid=Cj0KCQjwk5ibBhDqARIsACzmgLTHG-bZhGkPzGXhcjrbVxV5oOnAIEzPnCvJ64Kc4q-yWP31_-AqgvYaAj53EALw_wcB",
@@ -45,7 +45,7 @@ const courseData = [
 
     },
     {
-        Image:"https://www.shutterstock.com/image-vector/programming-code-coding-hacker-background-icon-1714491562",
+        Image:"https://d1rytvr7gmk1sx.cloudfront.net/wp-content/uploads/2018/03/istock-844535646.jpg",
         Name:"Project Management",
         Category: "Management",
         Company: "Google",

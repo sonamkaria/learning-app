@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padhai Academy - Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>EEZY Academy - Courses</title>
 </head>
 <body>
-    <h1>PADHAI academy</h1>
-
-    <a href="/courses/new"> Add </a>
     
-<img src="../images/coding.jpeg" alt="gh">
-    <div>
+<nav>
+    <h1> Learn skills from the best online courses in business</h1>
+    <h2>EEZY Academy</h2>
+    <button><a href="/courses/new"> Add </a></button>
+    <button>Login</button>
+</nav>
+    
+    <div class="parent">
+        About <br  />
+        Pick the profession and we will customize it with the best online programms available.
+    </div>
+
+    <div class="parent">
         
         <% courses.forEach(course => { %>
+        <div class="child">
+            <a href="/courses/<%= course._id %>"><div><%= course.Name %></div> </a>
             
-
-            <a href="/courses/<%= course._id %>"><div><%= course.Category %></div> </a>
-            
-            <img src="<%=course.Image%>" alt="course">
-
+            <img src="./images/coding.jpeg" alt="course">
+        </div>
         <% }) %>
     </div>
 </body>

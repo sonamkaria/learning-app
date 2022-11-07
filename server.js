@@ -26,7 +26,7 @@ db.on("disconnected", () => console.log("mongo disconnected"))
 app.use(express.urlencoded({ extended: true }))
 // captures (post) requests for put and delete and convertes them from a post
 app.use(methodOverride("_method"))
-// Use the books controller for books routes
+// Use the courses controller for course routes
 app.use("/courses", courseController)
 app.use( express.static('public'))
 
