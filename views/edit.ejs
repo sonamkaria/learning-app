@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/courses/<%=course._id%>?_method=PUT" method="post">
+        <!--  NOTE: the form is pre-populated with values for the server-->
+        Name: <input type="text" name="Name" value="<%=course.Image%>" /><br />
+        Name: <input type="text" name="Name" value="<%=course.Name%>" /><br />
+        Category: <input type="text" name="Catrgory" value="<%=course.Category%>" /><br />
+        Company: <input type="text" name="Company" value="<%=course.Company%>" /><br />
+        Link: <input type="text" name="Link" value="<%=course.Link%>" /><br />
+        Reviews: <input type="text" name="Reviews" value="<%=course.Reviews%>" /><br />
+        <br />
+        <input type="submit" value="Submit Changes" />
+      </form>
+</body>
+</html>

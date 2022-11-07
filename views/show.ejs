@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA - Course</title>
+</head>
+<body>
+    <nav>
+      <a href="/courses">Back to Home Page</a>
+    </nav>
+    <h1><%=course.Name%></h1>
+    <img src="course.Image" alt="">
+    Link: <a href="<%= course.Link%> "><%=course.Company%> </a><br />
+
+    Reviews: <%= course.Reviews%>
+    <br />
+    <form action="/courses/<%= course._id %>?_method=DELETE" method="post">
+        <input type="submit" value ="DELETE" />
+      </form>
+      <a href="/courses/<%= course._id %>/edit">EDIT</a>
+    
+  
+  </body>
+</html>

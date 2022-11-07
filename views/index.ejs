@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padhai Academy - Courses</title>
+</head>
+<body>
+    <h1>PADHAI academy</h1>
+
+    <a href="/courses/new"> Add </a>
+    
+<img src="../images/coding.jpeg" alt="gh">
+    <div>
+        
+        <% courses.forEach(course => { %>
+            
+
+            <a href="/courses/<%= course._id %>"><div><%= course.Category %></div> </a>
+            
+            <img src="<%=course.Image%>" alt="course">
+
+        <% }) %>
+    </div>
+</body>
+</html>
