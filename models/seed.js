@@ -1,7 +1,7 @@
 const courseData = [
     {
         Image:"https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg",
-        Name:"UX/UI",
+        Name:"Python",
         Category: "Coding",
         Company: "Udemy",
         Link:"https://www.udemy.com/course/pythonforbeginners/",
