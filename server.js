@@ -8,7 +8,7 @@ const courseController = require("./controllers/courses")
 // Pulls environment vars into serv er js from .env
 require('dotenv').config()
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
