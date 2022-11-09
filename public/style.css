@@ -14,15 +14,14 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .header {
 display: flex;
 justify-content:space-around;
-height: 40px;
+height: 50px;
 font-size: 20px;
 background-color:black;
 color: white;
 margin-top: -10px;
-align-items: center;
-padding: 5px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+align-items: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button {
@@ -37,19 +36,21 @@ button {
 button:hover{
     text-decoration:underline;
     text-decoration-color:cadetblue;
-
 }
 
-
-
-body{
-    background-color:whitesmoke;
+.heroPage{
+    display:flex;
+    justify-content: center;
+    height:700px ;
+    width: 100%;
+    margin-bottom: -700px;
+   
+   
 }
 
 .about {
     display:inline-flex;
     justify-content:center;
-    
     width: 1400px;
     font-size: 25px;
     align-items: center;
@@ -58,14 +59,12 @@ body{
     margin-top: -70px;
     
 }
-.heroPage{
-    display:flex;
-    height:700px ;
-    width: 100%;
-    margin-top: -50px;
-    margin-bottom: -700px;
-   
+
+
+body{
+    background-color:whitesmoke;
 }
+
 .parent {
     display: flex;
     flex-wrap:wrap;
@@ -93,7 +92,24 @@ img{
     height: 400px;
 }
 
+.show {
+    display: block;
+    flex-wrap:wrap;
+    justify-content:center;
+    font-size: 25px;
+    align-items: center;
+    padding: 50px 500px 500px 500px;
 
+}
+form {
+    display: block;
+    justify-content:center;
+    align-items: center;
+    background-color:bisque;
+    height: 300px;
+    width: 400px;
+    padding: 50px 50px 50px 50px
+}
 
 footer {
     background-color: black;

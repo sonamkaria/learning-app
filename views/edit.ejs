@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <title>EEZY Education - Courses</title>
+</head>
+
+<body>
+<nav>
+        <h1 class="promoBanner"> Sign up today to get 20% off your first order. Conditions apply</h1>
+        <h2 class="header">
+            EZZY Education
+            <button>About</button>
+            <button>Search</button>
+            <button>Login</button>
+            <button><a href="/courses/new">Add Course </a></button>
+        </h2>
+    </nav>
     <form action="/courses/<%=course._id%>?_method=PUT" method="post">
         <!--  NOTE: the form is pre-populated with values for the server-->
         Image: <input type="text" name="Image" value="<%=course.Image%>" /><br />
