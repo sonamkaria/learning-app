@@ -29,7 +29,7 @@ const courseData = [
     {
         Image:"https://miro.medium.com/max/702/1*Ra02AqsQlC0KV229EvM98g.png",
         Name:"Data Analytics",
-        Category: "Data",
+        Category: "Analytics",
         Company: "Coursera",
         Link:"https://www.coursera.org/professional-certificates/google-data-analytics",
         Reviews: "4.3/5"
@@ -38,7 +38,7 @@ const courseData = [
     {
         Image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGwMYfXwqnJjxmBkBXmO2le8N8smCqT-84vQ&usqp=CAU",
         Name:"Software Engineering",
-        Category: "Coding",
+        Category: "Engineering",
         Company: "Caltech",
         Link:"https://pg-p.ctme.caltech.edu/coding-bootcamp-online-certification-course?utm_source=google&utm_medium=cpc&utm_term=javascript%20course&utm_content=17298398593-136505729483-598863828183&utm_device=c&utm_campaign=Search-TechCluster-PG-SD-CFSDB-Caltech-US-Main-CaltechDomain-Catchment-18-24age-adgroup-SimilarWeb-Javascript-Phrase&gclid=Cj0KCQjwk5ibBhDqARIsACzmgLTHG-bZhGkPzGXhcjrbVxV5oOnAIEzPnCvJ64Kc4q-yWP31_-AqgvYaAj53EALw_wcB",
         Reviews: "4.3/5"

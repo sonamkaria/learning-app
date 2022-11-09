@@ -13,11 +13,11 @@
 </head>
 
 <body>
-
+    <h1 class="promoBanner"> Become a member and get 10% off your first order. Conditions apply</h1>
     <nav>
-        <h1 class="promoBanner"> Become a member and get 10% off your first order. Conditions apply</h1>
+       
         <h2 class="header">
-            <button><a id="logo"href="/courses">EZZY ED</a></button>
+            <button><a id="logo" href="/courses">EZZY ED</a></button>
             <a href="#aboutbanner">About</a>
             <a href="#categories">Categories</a>
             <button>Search</button>
@@ -31,14 +31,14 @@
             src="https://elearningindustry.com/wp-content/uploads/2020/08/elearning-vs-classroom-based-learning.png"
             alt="">
     </div>
-    
-    <div id="aboutbanner">ABOUT</div> 
+
+    <div id="aboutbanner">ABOUT</div>
     <div id="about">
 
 
-       
-<br />
-<br />
+
+        <br />
+        <br />
         Ezzy Education is an open source online learning tool which helps users customize programs based on their
         reqiuirements. Choose your course category and start customizing from 500+ top learning websites to help you get
         the best resources. Become a member for $15 and get 10% off all courses.
@@ -49,18 +49,19 @@
         <br />
 
     </div>
-<div id="categories">CATEGORIES</div>
+    <div id="categories">CATEGORIES</div>
     <div class="parent">
 
         <% courses.forEach(course=> { %>
             <div class="child">
                 <a href="/courses/<%= course._id %>">
                     <div class="child2">
-                        <%= course.Name %>
+                        <%= course.Category %>
                     </div>
                 </a>
-
-                <img id="courseimages" src="<%=course.Image%>" alt="course">
+                <a href="/courses/<%= course._id %>">
+                    <img id="courseimages" src="<%=course.Image%>" alt="course">
+                </a>
             </div>
             <% }) %>
     </div>
