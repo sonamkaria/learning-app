@@ -13,14 +13,17 @@
 
 
 ### Technologies Used
-#### Javascript, HTML, CSS, Trello
+1. Javascript
+2. HTML
+3. CSS
+4. Trello
 
 ### Getting Started
 #### Link:https://ezzy-learning-app.herokuapp.com/courses
 ####
 
 ### Next Steps
-#### Add a Login/Signup form 
-#### Add a working search bar
+1. Add a Login/Signup form 
+2. Add a working search bar
 
 #### 
