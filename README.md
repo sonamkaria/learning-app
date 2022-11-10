@@ -2,8 +2,8 @@
 
 ### Screenshots from APP
 
-![Alt text](./public/images/homePage1.jpeg "Home Page")
-![Alt text](./public/images/homePage2.jpeg "Home-About Page")
+![Alt text](./public/images/homePage.jpeg "Home Page")
+![Alt text](./public/images/homePage1.jpeg "Home-About Page")
 ![Alt text](./public/images/homePage3.jpeg "Home-Footer Page")
 ![Alt text](./public/images/showPage.jpeg "Show/Delete Page")
 ![Alt text](./public/images/editPage.jpeg "Edit Page")
