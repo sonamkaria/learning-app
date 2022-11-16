@@ -20,7 +20,7 @@
 
 ### Getting Started
 #### Link:https://ezzy-learning-app.herokuapp.com/courses
-####
+#### Trello: https://trello.com/b/PS7nLIWP/remote-learning-app
 
 ### Next Steps
 1. Add a Login/Signup form 
